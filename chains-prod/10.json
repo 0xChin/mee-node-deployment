@@ -1,6 +1,6 @@
 {
     "name": "Optimism",
-    "rpc": "<YOUR RPC URL (debug_traceCall enabled)>",
+    "rpc": "http://host.docker.internal::9545",
     "isTestChain": false,
     "chainId": "10",
     "type": "optimism",

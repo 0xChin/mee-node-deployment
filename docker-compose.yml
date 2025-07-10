@@ -15,7 +15,7 @@ services:
         volumes:
           - ./logs:/usr/src/app/logs
           - ./keystore:/usr/src/app/keystore
-          - ./chains-testnet:/usr/src/app/chains
+          - ./chains-prod:/usr/src/app/chains
     redis:
         image: redis:alpine
         restart: always
